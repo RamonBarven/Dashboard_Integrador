@@ -1,0 +1,17 @@
+.totalProductos{
+    width: 30vw;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.totalProductos h3 span {
+    color: #005471;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.totalProductos h3 {
+    font-weight: normal;
+}

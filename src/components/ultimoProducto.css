@@ -1,0 +1,48 @@
+.ultimo{
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ultimo h3 {
+    margin: 5px 0 10px 0;
+    color: #005471;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.imagen1{
+    width: 95%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.categoria{
+    color: #005471;
+    font-size: 25px;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-left: 20px;
+    position: relative;
+    bottom: 60px;
+    background-color: #f4f4f4;
+    padding: 10px 40px;
+    border-top-right-radius: 20px;
+}
+
+.categoria::first-letter{
+    text-transform: uppercase;
+}
+
+.location, .description {
+    position: relative;
+    bottom: 50px;
+}
+
+.location {
+    font-weight: bold;
+
+}

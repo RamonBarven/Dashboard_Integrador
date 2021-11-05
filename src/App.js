@@ -1,23 +1,39 @@
-import logo from './logo.svg';
+
 import './App.css';
+import TotalProductos from './components/totalProductos';
+import TotalUser from './components/totalUsers';
+import TotalCategory from './components/totalCategory';
+import UltimoProducto from './components/ultimoProducto';
+import ListaProductos from './components/listProducts';
+import PerCategory from './components/perCategory';
+import Tarjeta from './components/tarjeta';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Tarjeta>
+        <TotalProductos />
+      </Tarjeta>
+      <Tarjeta>
+        <TotalUser />
+      </Tarjeta> 
+      <Tarjeta>
+        <TotalCategory />
+      </Tarjeta>
+      <div className='izquierda'>
+        <Tarjeta>
+          <UltimoProducto />
+        </Tarjeta>
+        <Tarjeta>
+          <PerCategory />
+        </Tarjeta> 
+      </div>  
+      <Tarjeta>
+        <ListaProductos />
+      </Tarjeta> 
+      
+
+      
     </div>
   );
 }

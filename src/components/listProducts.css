@@ -1,0 +1,44 @@
+.lista{
+    width: 33vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+    margin: 5px;
+}
+
+.lista h3{
+    margin: 15px;
+}
+
+.headers, .listados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+.headers h3{
+    color: #005471;
+    font-size: 24px;
+    text-align: center;
+}
+
+.headers .uno, .listados .uno {
+    width: 70%;
+}
+
+.headers .dos, .listados .dos{
+    width: 29%;
+}
+
+.listados .dos{
+    text-transform: uppercase;
+
+}
+
